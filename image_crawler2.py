@@ -75,7 +75,7 @@ def delete_not_model(links_datei, name_model):
         if not link:
             continue
 
-        # Überprüfen, ob der Link den gewünschten String "name_model" enthält
+        
         if name_model in link:
             präfix_match = re.search(r'(.+)-(\d+x\d+)\.jpg', link)
             if präfix_match:
@@ -90,7 +90,7 @@ def delete_not_model(links_datei, name_model):
             link = link.strip()
             if not link:
                 continue
-            # Überprüfen, ob der Link den gewünschten String "name_model" enthält
+           
             if name_model in link:
                 file.write(link + '\n')
 
@@ -98,20 +98,20 @@ def delete_low_res(links_datei):
     with open(links_datei, 'r') as file:
         links = file.readlines()
 
-    link_dict = {}  # Ein Wörterbuch, um Links für jeden Namen und die dazugehörige Auflösung zu speichern
+    link_dict = {}  
 
     for link in links:
         link = link.strip()
         if not link:
             continue
 
-        # Verwenden eines regulären Ausdrucks, um den Namen und die Auflösung zu extrahieren
+        
         match = re.match(r'(.+)-(\d+x\d+)\.jpg', link)
         if match:
             name, auflösung = match.groups()
-            auflösung = tuple(map(int, auflösung.split('x')))  # Umwandlung in Tupel von Ganzzahlen
+            auflösung = tuple(map(int, auflösung.split('x'))) 
 
-            # Wenn der Name bereits im Wörterbuch ist, überprüfen, ob die aktuelle Auflösung höher ist
+            
             if name in link_dict:
                 if auflösung > link_dict[name][0]:
                     link_dict[name] = (auflösung, link)
