@@ -39,15 +39,16 @@ Run project
   1.1 sexygirlspics.com, 
       pornpics.com,
       nastypornpics.com
-
+      ```bash
       [model-name] > should be one word e.g. RickyBobby
-
+      ```
   1.2 gotanynudes.com 
-
+      ```bash
       [model-name] > should be one word seperated by - e.g. Ricky-Bobby
-
+      ```
 
 2. Videos
   2.1 gotanynudes.com
-
+      ```bash
       [model-name] > should be one word e.g. RickyBobby
+      ```
