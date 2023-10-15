@@ -36,13 +36,15 @@ Run project
     
 ## Usage
 1. Images
-  1.1 sexygirlspics.com, 
+
+   1.1 sexygirlspics.com, 
       pornpics.com,
       nastypornpics.com
       ```bash
       [model-name] > should be one word e.g. RickyBobby
       ```
-  1.2 gotanynudes.com 
+  
+   1.2 gotanynudes.com 
       ```bash
       [model-name] > should be one word seperated by - e.g. Ricky-Bobby
       ```
