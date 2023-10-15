@@ -68,6 +68,7 @@ def menu():
     print(f"|    [{Fore.GREEN}x{Style.RESET_ALL}] https://www.sexygirlspics.com                     |")
     print(f"|    [{Fore.GREEN}x{Style.RESET_ALL}] https://www.pornpics.com                          |")
     print(f"|    [{Fore.GREEN}x{Style.RESET_ALL}] https://www.nastypornpics.com                     |")
+    print(f"|    [{Fore.GREEN}x{Style.RESET_ALL}] https://www.gotanynudes.com                       |")
     print("|                                                          |")
     print("| 2. Download Video                                        |")
     print(f"|    [{Fore.GREEN}x{Style.RESET_ALL}] https://www.gotanynudes.com                       |")
@@ -95,6 +96,9 @@ def main():
         elif re.search(r'nastypornpics\.com', url):
             folder_name = get_user_folder_name()
             os.system(f"python3 image_crawler.py {url} {folder_name}")
+        elif re.search(r'gotanynudes\.com', url):
+            folder_name = get_user_folder_name()
+            os.system(f"python3 image_crawler2.py {url} {folder_name}")
         else:
             print(f"[{Fore.RED}error{Style.RESET_ALL}] can't download url")
 
