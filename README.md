@@ -50,12 +50,13 @@ Run project
       ```
 
 2. Videos
-  2.1 gotanynudes.com
+   
+   2.1 gotanynudes.com
       ```bash
       [model-name] > should be one word e.g. RickyBobby
       ```
 
-3. Push
+4. Push
    
     3.1 push
       ```bash
