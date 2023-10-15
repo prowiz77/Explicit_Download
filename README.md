@@ -1,7 +1,3 @@
-
-![Logo](https://pasteboard.co/ATZ5HFaPuDcM.png)
-
-
 # Explicit Downloader
 
 Explicit Downloader is able to download images and videos from 18+ sites
