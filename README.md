@@ -54,3 +54,17 @@ Run project
       ```bash
       [model-name] > should be one word e.g. RickyBobby
       ```
+
+3. Push
+  3.1 push
+      ```bash
+      to push downloads-folder type "push"
+      ```
+  3.2 edit
+      ```bash
+      to edit downloads-folder-location type "edit"
+      ```
+4. Exit
+      ```bash
+      to exit the menu type "exit"
+      ```
