@@ -15,7 +15,8 @@ import platform
 # pornpics.com
 # nastypornpics.com
 # gotanynudes.com
-#
+# pornhub.com
+# xhamster.com
 #------------------------------------video_crawler----------------------------------------------------------------------------------------------------
 def vid_crawler(url, folder_name):
     def extract_video_links(url):
