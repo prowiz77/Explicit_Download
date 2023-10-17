@@ -6,7 +6,9 @@ Supported Sites:
   - sexygirlspics.com
   - pornpics.com
   - nastypornpics.com
-  - gotanynudes.com 
+  - gotanynudes.com
+  - pornhub.com
+  - xhamster.com 
 
 Requirements:
   - UNIX(Linux, MacOS,etc.)
